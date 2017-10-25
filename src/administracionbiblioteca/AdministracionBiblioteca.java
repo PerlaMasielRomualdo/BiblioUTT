@@ -16,6 +16,8 @@ public class AdministracionBiblioteca {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        BibliotecaUTT t = new BibliotecaUTT();
+        t.setVisible(true);
     }
     
 }

@@ -56,7 +56,7 @@ public class Individual extends javax.swing.JInternalFrame {
 
         jLabel3.setText("Matricula");
 
-        jLabel4.setText("Accion a realizar");
+        jLabel4.setText("Actividad");
 
         buttonGroup1.add(jRadioButton1);
         jRadioButton1.setText("Femenino");
@@ -98,7 +98,7 @@ public class Individual extends javax.swing.JInternalFrame {
                                 .addComponent(jLabel4)
                                 .addGap(39, 39, 39)
                                 .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addContainerGap(153, Short.MAX_VALUE))
+                        .addContainerGap(89, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
@@ -143,7 +143,7 @@ public class Individual extends javax.swing.JInternalFrame {
                     .addComponent(jLabel5))
                 .addGap(45, 45, 45)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(61, Short.MAX_VALUE))
+                .addContainerGap(35, Short.MAX_VALUE))
         );
 
         pack();
