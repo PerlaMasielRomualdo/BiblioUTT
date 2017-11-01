@@ -5,6 +5,8 @@
  */
 package administracionbiblioteca;
 
+import Vistas.BibliotecaUTT;
+
 /**
  *
  * @author SYM-II
@@ -18,6 +20,7 @@ public class AdministracionBiblioteca {
         // TODO code application logic here
         BibliotecaUTT t = new BibliotecaUTT();
         t.setVisible(true);
+        t.setLocationRelativeTo(null);
     }
     
 }
