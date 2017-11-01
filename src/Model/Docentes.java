@@ -7,16 +7,13 @@ package Model;
 
 /**
  *
- * @author NAMAN
+ * @author cipri
  */
-public class Alumnos {
-
+public class Docentes {
     String Id;
     String Id_TipoUser;
-    String Id_carrera;
     String Clave;
     String Sexo;
-    String Nivel;
     String Fecha;
     String Entrada;
     String Salida;
@@ -37,14 +34,6 @@ public class Alumnos {
         this.Id_TipoUser = Id_TipoUser;
     }
 
-    public String getId_carrera() {
-        return Id_carrera;
-    }
-
-    public void setId_carrera(String Id_carrera) {
-        this.Id_carrera = Id_carrera;
-    }
-
     public String getClave() {
         return Clave;
     }
@@ -59,14 +48,6 @@ public class Alumnos {
 
     public void setSexo(String Sexo) {
         this.Sexo = Sexo;
-    }
-
-    public String getNivel() {
-        return Nivel;
-    }
-
-    public void setNivel(String Nivel) {
-        this.Nivel = Nivel;
     }
 
     public String getFecha() {
