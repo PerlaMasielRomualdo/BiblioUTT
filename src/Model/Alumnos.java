@@ -11,30 +11,21 @@ package Model;
  */
 public class Alumnos {
 
-    String Id;
-    String Id_TipoUser;
+    String Dni;
     String Id_carrera;
-    String Clave;
-    String Sexo;
+    String Id_Actividad;
+    String Matricula;
     String Nivel;
-    String Fecha;
+    String Sexo;
     String Entrada;
     String Salida;
 
-    public String getId() {
-        return Id;
+    public String getDni() {
+        return Dni;
     }
 
-    public void setId(String Id) {
-        this.Id = Id;
-    }
-
-    public String getId_TipoUser() {
-        return Id_TipoUser;
-    }
-
-    public void setId_TipoUser(String Id_TipoUser) {
-        this.Id_TipoUser = Id_TipoUser;
+    public void setDni(String Dni) {
+        this.Dni = Dni;
     }
 
     public String getId_carrera() {
@@ -45,20 +36,20 @@ public class Alumnos {
         this.Id_carrera = Id_carrera;
     }
 
-    public String getClave() {
-        return Clave;
+    public String getId_Actividad() {
+        return Id_Actividad;
     }
 
-    public void setClave(String Clave) {
-        this.Clave = Clave;
+    public void setId_Actividad(String Id_Actividad) {
+        this.Id_Actividad = Id_Actividad;
     }
 
-    public String getSexo() {
-        return Sexo;
+    public String getMatricula() {
+        return Matricula;
     }
 
-    public void setSexo(String Sexo) {
-        this.Sexo = Sexo;
+    public void setMatricula(String Matricula) {
+        this.Matricula = Matricula;
     }
 
     public String getNivel() {
@@ -69,12 +60,12 @@ public class Alumnos {
         this.Nivel = Nivel;
     }
 
-    public String getFecha() {
-        return Fecha;
+    public String getSexo() {
+        return Sexo;
     }
 
-    public void setFecha(String Fecha) {
-        this.Fecha = Fecha;
+    public void setSexo(String Sexo) {
+        this.Sexo = Sexo;
     }
 
     public String getEntrada() {
@@ -92,6 +83,5 @@ public class Alumnos {
     public void setSalida(String Salida) {
         this.Salida = Salida;
     }
-    
     
 }

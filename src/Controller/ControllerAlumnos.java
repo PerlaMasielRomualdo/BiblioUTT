@@ -8,7 +8,7 @@ package Controller;
 import java.sql.SQLException;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import Model.Alumnos;
+import Model.AlumnosDAO;
 
 /**
  *
@@ -16,13 +16,15 @@ import Model.Alumnos;
  */
 public class ControllerAlumnos {
     
-//    public void insertPerson(String lastName, String name, String birthDay, String place){
-//        String messageResult = Model.insertPerson(lastName, name, birthDay, place);
-//        //Mensaje de Validadcion si se registro con exito
-//        if (messageResult != null){
-//            JOptionPane.showMessageDialog(null, messageResult);
-//        } else{
-//            JOptionPane.showMessageDialog(null, "Registro erroneo");
-//        }
-//    }
+    AlumnosDAO Model = new AlumnosDAO();
+    
+    public void insert(String Matricula, String Nvl){
+        String messageResult = Model.insert(Matricula, Nvl);
+        //Mensaje de Validadcion si se registro con exito
+        if (messageResult != null){
+            JOptionPane.showMessageDialog(null, messageResult);
+        } else{
+            JOptionPane.showMessageDialog(null, "Registro erroneo");
+        }
+    }
 }

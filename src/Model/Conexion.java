@@ -16,7 +16,7 @@ public class Conexion {
 
         try {
             Class.forName("com.mysql.jdbc.Driver").newInstance();
-            String serverDb = "jdbc:mysql://localhost:3306/registrobiblioteca";
+            String serverDb = "jdbc:mysql://localhost:3306/bilbioteca_utt";
             String userDb = "root";
             String passwordDb = "";
             conexion = DriverManager.getConnection(serverDb, userDb, passwordDb);

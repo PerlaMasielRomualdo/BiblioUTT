@@ -3,9 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Documents/NetBeansProjects/BiblioUTT/src/administracionbiblioteca/Individual.java</file>
-            <file>file:/D:/Documents/NetBeansProjects/BiblioUTT/src/administracionbiblioteca/Docente.java</file>
-            <file>file:/D:/Documents/NetBeansProjects/BiblioUTT/src/administracionbiblioteca/Grupo.java</file>
+            <file>file:/C:/Users/NAMAN/Documents/NetBeansProjects/BiblioUTT/src/Vistas/Individual.java</file>
+            <file>file:/C:/Users/NAMAN/Documents/NetBeansProjects/BiblioUTT/src/Model/AlumnosDAO.java</file>
+            <file>file:/C:/Users/NAMAN/Documents/NetBeansProjects/BiblioUTT/src/Controller/ControllerAlumnos.java</file>
+            <file>file:/C:/Users/NAMAN/Documents/NetBeansProjects/BiblioUTT/src/administracionbiblioteca/Individual.java</file>
+            <file>file:/C:/Users/NAMAN/Documents/NetBeansProjects/BiblioUTT/src/Model/Conexion.java</file>
         </group>
     </open-files>
 </project-private>

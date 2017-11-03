@@ -57,7 +57,7 @@ public class BibliotecaUTT extends javax.swing.JFrame {
         });
 
         Individual.setBackground(new java.awt.Color(204, 255, 204));
-        Individual.setText("Individual");
+        Individual.setText("Registro Individual");
         Individual.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 IndividualActionPerformed(evt);
@@ -70,7 +70,7 @@ public class BibliotecaUTT extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(58, 58, 58)
-                .addComponent(Individual, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(Individual, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(Docente, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(60, 60, 60))
@@ -102,8 +102,9 @@ public class BibliotecaUTT extends javax.swing.JFrame {
     }//GEN-LAST:event_DocenteActionPerformed
 
     private void IndividualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IndividualActionPerformed
-        Grupos t = new Grupos();
-        t.setVisible(true);
+        Individual I = new Individual();
+        I.setVisible(true);
+        I.setLocationRelativeTo(null);
     }//GEN-LAST:event_IndividualActionPerformed
 
     private void GrupalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GrupalActionPerformed
